@@ -1,6 +1,6 @@
 {
-  "name": "Coro San Román",
-  "short_name": "C_SanRoman",
+  "name": "Grupo Coral Sonamos",
+  "short_name": "Sonamos",
   "description": "Plataforma de estudio y organización coral",
   "start_url": "./index.html",
   "scope": "/",
