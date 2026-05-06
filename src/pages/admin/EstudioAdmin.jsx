@@ -18,6 +18,7 @@ export default function EstudioAdmin() {
     const { count: countObras } = await supabase
       .from('obras')
       .select('*', { count: 'exact', head: true })
+      .eq('coro_id', '74f58f17-dd4f-441a-a0f2-0c7ebebb4bd3')
 
     setTotalObras(countObras || 0)
 
